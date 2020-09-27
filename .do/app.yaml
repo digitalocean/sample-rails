@@ -2,7 +2,7 @@ name: sample-rails
 services:
 - environment_slug: ruby-on-rails
   github:
-    branch: master
+    branch: main
     deploy_on_push: true
     repo: digitalocean/sample-rails
   name: sample-rails
